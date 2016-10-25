@@ -1,0 +1,11 @@
+1- Three things to speed up a website: minify .js and .html files, reduce the
+amount of css rules and use media queries to determine which js and css use
+in a certain moment
+
+2- Analyzing www.carnival.com: First, there are several .js files that can be
+minified. Using uglifyjs could be a good alternative for that. In the same
+way, it is possible to reduce html and css files using file compressors like
+htmlcompressor.com and csscompressor.com. There are, also, some javascript files
+used to block some parts of the page. It seems that removing those scripts
+the site could be faster ( but it could be incomplete too, :) ). The files are
+alreade minified, so PageSpeed Insights talks about banish them.
